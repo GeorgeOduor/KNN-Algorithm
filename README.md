@@ -35,7 +35,7 @@ import seaborn as sns
 
 
 ```python
-data = pd.read_csv('/Users/admin/Downloads/Refactored_Py_DS_ML_Bootcamp-master/14-K-Nearest-Neighbors/Classified Data',index_col = 0)
+data = pd.read_csv('annonimizeddataset',index_col = 0)
 ```
 
 
