@@ -498,17 +498,4 @@ print(classification_report(y_test,predictions))
 
     ---------------------------------------------------------------------------
 
-    NameError                                 Traceback (most recent call last)
-
-    <ipython-input-1-a56a7221e3aa> in <module>
-    ----> 1 knn = KNeighborsClassifier(n_neighbors=15)
-          2 knn.fit(X_train,y_train)
-          3 print(confusion_matrix(y_test,predictions))
-          4 print("___"*20)
-          5 print(classification_report(y_test,predictions))
-
-
-    NameError: name 'KNeighborsClassifier' is not defined
-
-
 This gives a small improvement in accuracy.
